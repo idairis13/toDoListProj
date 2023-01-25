@@ -1,0 +1,46 @@
+.delete{
+  float: center;
+  background: grey;
+  padding: 6px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+}
+
+.delete:hover{
+  background: #333;
+}
+
+.done{
+  float: center;
+  background: grey;
+  padding: 6px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+}
+
+.done:hover{
+  background: #333;
+}
+
+.event{
+  font-size: 32px;
+  float: center;
+  padding: 6px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: black;
+}
+
+.background{
+  float: center;
+  background: #bde9f1;
+  padding: 6px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: black;
+}
+
+
+
