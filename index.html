@@ -1,33 +1,36 @@
 <!DOCTYPE html>
-<link href="stylesheet.css" rel="stylesheet" />
+<html>
+  <head>
+    <link href="stylesheet.css" rel="stylesheet" />
+    <title>To Do List</title>
+  </head>
 
-<title>To Do List</title>
+  <body>
+    <header>
+      <h1 style="border:black; border-width:2px; border-style:solid; border-radius: 75px; font-size: 350%; border-bottom-width: 5px;">
+        <br></br>
+          <center>
+          <div id="name"></div>To Do List
+            <form id="add-form">
+              <input class="background" type="text" placeholder="Add an item!"/>
+              <button>Submit</button>
+              <input type="reset" value="Clear" />
+            </form>
+          </center>
+        <br></br>
+      </h1>
+    </header>
 
-<header>
+    <center>
+      <div id="todo-list">
+        <ol id="one"></ol>
+        <script src="index.js"></script>
+      </div>
+    </center>
 
-    <h1 style="border:black; border-width:2px; border-style:solid; border-radius: 75px; font-size: 350%; border-bottom-width: 5px;">
-      <br></br>
-      <center>
-        <div id="name"></div>To Do List
-        <form id="add-form">
-          <input class="background" type="text" placeholder="Add an item!"/>
-          <button>Submit</button>
-          <input type="reset" value="Clear" />
-        </form>
-      </center>
 
-      <br></br>
-    </h1>
-
-</header>
-
-<body><center>
-  <div id="todo-list">
-    <ol id="one"></ol>
-  </div>
-  <script src="index.js"></script>
-
-</center></body>
+  </body>
+</html>
 
 
 
